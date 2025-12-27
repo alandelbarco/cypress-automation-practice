@@ -1,0 +1,16 @@
+{
+  "name": "cypress-tests-store",
+  "version": "1.0.0",
+  "description": "tests de practica",
+  "license": "ISC",
+  "author": "Alan Del Barco",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "prueba-chrome": "cypress run --spec cypress/e2e/SmokeTestBanco.cy.js --browser chrome",
+    "prueba-firefox": "cypress run --spec cypress/e2e/SmokeTestBanco.cy.js --browser firefox"
+  },
+  "devDependencies": {
+    "cypress": "^15.8.1"
+  }
+}
